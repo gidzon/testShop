@@ -1,26 +1,14 @@
 {
-  "name": "root/app",
-  "type": "project",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Maksim Zavitaev",
-      "email": "vskweb@gmail.com"
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/twig-view": "^2.5",
+        "ext-pdo": "*",
+        "symfony/var-dumper": "^4.3",
+        "slim/php-view": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
     }
-  ],
-  "minimum-stability": "stable",
-  "autoload": {
-    "psr-4": {
-      "App\\": "app"
-    }
-  },
-  "require": {
-    "ext-pdo": "*",
-    "slim/slim": "^3.12",
-    "slim/twig-view": "^2.5",
-    "symfony/var-dumper": "^4.3"
-  },
-  "require-dev": {
-    "laravel/homestead": "^8.5"
-  }
 }

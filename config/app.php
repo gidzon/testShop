@@ -1,5 +1,4 @@
 <?php
-
 return [
     'httpVersion'                       => '1.1',
     'responseChunkSize'                 => 4096,
